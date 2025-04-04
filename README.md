@@ -1,4 +1,4 @@
-# 🧠 YT-Semantic Chunker
+#  YT-Semantic Chunker
 
 An LLM-enhanced YouTube audio analyzer that semantically chunks video transcripts, enriches each chunk with AI-generated titles, summaries, topics, Hindi translations, and provides a final overall summary.
 
@@ -70,11 +70,11 @@ An LLM-enhanced YouTube audio analyzer that semantically chunks video transcript
 {
   "chunk_id": 4,
   "chunk_length": 29.6,
-  "text": "Nobody would have heard of him. But he was a pioneering technology visionary...",
+  "text": " ",
   "start_time": 88.58,
   "end_time": 120.38,
-  "title": "The Visionary Behind Aadhaar",
-  "summary": "Describes Vivek's work on Aadhaar and AI for Bharat.",
-  "topic": "Indian Tech Innovators",
-  "translated_text_hi": "उनके बारे में शायद ही किसी ने सुना होगा, लेकिन वे आधार के पीछे एक तकनीकी अग्रणी थे..."
+  "title": " ",
+  "summary": " ",
+  "topic": " ",
+  "translated_text_hi": " "
 }
