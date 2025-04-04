@@ -28,7 +28,7 @@ An LLM-enhanced YouTube audio analyzer that semantically chunks video transcript
 | `Voice Activity Detection (VAD)` | Removes silence to improve transcription and chunk accuracy |
 | `Speech Recognition Model` (like `Whisper`) | Transcribes audio to text                             |
 | `Transformers` (Hugging Face) | Used for LLM-based title/summary/topic generation              |
-| `Helsinki-NLP/opus-mt-en-hi` | Translates English chunks to Hindi                             |
+| `facebook/m2m100_418M` | Translates English chunks to Hindi                             |
 | `Gradio`          | Provides a clean and interactive user interface                         |
 
 ---
@@ -59,7 +59,7 @@ An LLM-enhanced YouTube audio analyzer that semantically chunks video transcript
    - This enriches every chunk with metadata.
 
 7. **Hindi Translation**
-   - Each chunk’s transcript is translated into Hindi using Helsinki-NLP/opus-mt-en-hi.
+   - Each chunk’s transcript is translated into Hindi using facebook/m2m100_418M.
 
 
 
